@@ -10,7 +10,7 @@
 		5F74560220C79CE100A56D37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F74560120C79CE100A56D37 /* AppDelegate.m */; };
 		5F74560420C79CE100A56D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F74560320C79CE100A56D37 /* Assets.xcassets */; };
 		5F74560720C79CE100A56D37 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F74560520C79CE100A56D37 /* MainMenu.xib */; };
-		5F74560A20C79CE100A56D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F74560920C79CE100A56D37 /* main.m */; };
+		5F74560A20C79CE100A56D37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F74560920C79CE100A56D37 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		5F74560320C79CE100A56D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F74560620C79CE100A56D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5F74560820C79CE100A56D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F74560920C79CE100A56D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F74560920C79CE100A56D37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5F74560B20C79CE100A56D37 /* openglengine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openglengine.entitlements; sourceTree = "<group>"; };
 		5F74561020C79CE100A56D37 /* openglengineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openglengineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F74561B20C79CE100A56D37 /* openglengineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openglengineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +94,7 @@
 				5F74560320C79CE100A56D37 /* Assets.xcassets */,
 				5F74560520C79CE100A56D37 /* MainMenu.xib */,
 				5F74560820C79CE100A56D37 /* Info.plist */,
-				5F74560920C79CE100A56D37 /* main.m */,
+				5F74560920C79CE100A56D37 /* main.cpp */,
 				5F74560B20C79CE100A56D37 /* openglengine.entitlements */,
 			);
 			path = openglengine;
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F74560A20C79CE100A56D37 /* main.m in Sources */,
+				5F74560A20C79CE100A56D37 /* main.cpp in Sources */,
 				5F74560220C79CE100A56D37 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
