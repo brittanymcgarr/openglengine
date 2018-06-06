@@ -11,8 +11,6 @@
 		5F74560420C79CE100A56D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F74560320C79CE100A56D37 /* Assets.xcassets */; };
 		5F74560720C79CE100A56D37 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F74560520C79CE100A56D37 /* MainMenu.xib */; };
 		5F74560A20C79CE100A56D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F74560920C79CE100A56D37 /* main.m */; };
-		5F74561520C79CE100A56D37 /* openglengineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F74561420C79CE100A56D37 /* openglengineTests.m */; };
-		5F74562020C79CE100A56D37 /* openglengineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F74561F20C79CE100A56D37 /* openglengineUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		5F74560920C79CE100A56D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F74560B20C79CE100A56D37 /* openglengine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openglengine.entitlements; sourceTree = "<group>"; };
 		5F74561020C79CE100A56D37 /* openglengineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openglengineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F74561420C79CE100A56D37 /* openglengineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openglengineTests.m; sourceTree = "<group>"; };
-		5F74561620C79CE100A56D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F74561B20C79CE100A56D37 /* openglengineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openglengineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F74561F20C79CE100A56D37 /* openglengineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openglengineUITests.m; sourceTree = "<group>"; };
-		5F74562120C79CE100A56D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				5F7455FF20C79CE100A56D37 /* openglengine */,
-				5F74561320C79CE100A56D37 /* openglengineTests */,
-				5F74561E20C79CE100A56D37 /* openglengineUITests */,
 				5F7455FE20C79CE100A56D37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,24 +98,6 @@
 				5F74560B20C79CE100A56D37 /* openglengine.entitlements */,
 			);
 			path = openglengine;
-			sourceTree = "<group>";
-		};
-		5F74561320C79CE100A56D37 /* openglengineTests */ = {
-			isa = PBXGroup;
-			children = (
-				5F74561420C79CE100A56D37 /* openglengineTests.m */,
-				5F74561620C79CE100A56D37 /* Info.plist */,
-			);
-			path = openglengineTests;
-			sourceTree = "<group>";
-		};
-		5F74561E20C79CE100A56D37 /* openglengineUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5F74561F20C79CE100A56D37 /* openglengineUITests.m */,
-				5F74562120C79CE100A56D37 /* Info.plist */,
-			);
-			path = openglengineUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F74561520C79CE100A56D37 /* openglengineTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F74562020C79CE100A56D37 /* openglengineUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
