@@ -82,11 +82,19 @@
 		5F7455FF20C79CE100A56D37 /* openglengine */ = {
 			isa = PBXGroup;
 			children = (
+				5F74562D20C7A26900A56D37 /* src */,
 				5F74560820C79CE100A56D37 /* Info.plist */,
-				5F74560920C79CE100A56D37 /* main.cpp */,
 				5F74560B20C79CE100A56D37 /* openglengine.entitlements */,
 			);
 			path = openglengine;
+			sourceTree = "<group>";
+		};
+		5F74562D20C7A26900A56D37 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5F74560920C79CE100A56D37 /* main.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
